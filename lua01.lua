@@ -32,3 +32,11 @@ tostring vem do inglês TO STRING, ou seja, PARA STRING
   Converte o número 123 para texto "123":
   tostring(123) ==> "123"
 ]]--
+
+-- function : Funções
+function soma(a, b)
+	return a + b
+end
+
+s = soma
+print(s(1,2))
